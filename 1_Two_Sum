@@ -1,0 +1,9 @@
+class solution:
+  Def twosum(self, nums,target):
+For I in nums: 
+  J=target –I 
+    Start_index=nums.index(i)
+    Next_index=start_index+1
+    Temp_nums=nums[next_index:]
+    If j in temp_nums:
+    return(nums.index(i),next_index+temp_nums.index(j))
